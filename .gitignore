@@ -1,3 +1,5 @@
 __pycache__/
 .DS_Store
 .idea/
+/data_moscow.json
+/data_innopolis.json
