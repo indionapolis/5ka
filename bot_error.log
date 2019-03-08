@@ -1,0 +1,22 @@
+2019-03-08 15:22:42.786490:
+
+Traceback (most recent call last):
+  File "/Users/Pavel/programs/5ka/tg_bot.py", line 46, in run
+    self.handle(result)
+  File "/Users/Pavel/programs/5ka/tg_bot.py", line 80, in handle
+    self.send_category(chat_id, text)
+  File "/Users/Pavel/programs/5ka/tg_bot.py", line 99, in send_category
+    item_list = get_data('innopolis')
+  File "/Users/Pavel/programs/5ka/data_manege.py", line 36, in get_data
+    data = json.load(file)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/__init__.py", line 299, in load
+    parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/decoder.py", line 355, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 1 column 949493 (char 949492)
+
+
